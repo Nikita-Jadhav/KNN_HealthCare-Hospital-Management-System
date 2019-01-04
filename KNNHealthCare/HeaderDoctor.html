@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>KNN HealthCare</title>
+<link rel="icon" href="images/site/flower.png" type="image/png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="keywords" content="Appointment,Medicine Store,Find a doctor" />
+<meta name="description" content="Electronics gadgets online shopping website." />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Links for Jquery and bootstrap css -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+<style>
+.col-md-6{
+		width : 45% ! important;
+	}
+</style>
+</head>
+<body onload="start()">
+	<!--<script type="text/javascript" src="autocomplete.js"></script>
+	 Start #logo top content of the webpage-->
+	 <!--header right menu-->
+	<div id="quickInfo">
+		<table class="quickInfoGrid">
+			<tr>
+				<td><img src="images/site/ambulance.jpg" alt="" style="height: 40px"/><a href="#" style="font-size:17px;margin-left: 5px;padding-top:10px;text-decoration:none;font-family:Arial, Helvetica, sans-serif;color:black">+1 0123456789</a></td>
+				<td style="background-color:white"></td>
+				<!--<td><input type="image" src="images/site/ambulance.jpg" alt="" style="height: 40px" value="+1 0123456789.">+1 0123456789</td>-->
+				<td class="dropdown"><button class="dropbtn" style="font-size:17px;color:black">Quick Connect</button>
+					<div class="dropdown-content">
+						<a href="#">Emergency Number: +1 234567890</a>
+						<a href="#">Blood Bank (24x7): +1 234567890/+1 7894561230</a>
+						<a href="#">Ambulance Number: +1 234567890</a>
+						<a href="#">Email ID: KNN@knnhospital.net</a>
+					</div>
+				</td>
+				<td style="background-color:white"></td>
+				<td>
+					<input type="text" name="searchId" value="" class="input"
+					id="searchId" onkeyup="doCompletionDoctor()" autocomplete="off" 
+					placeholder="search here for a doctor.." style="background-color: #fff2f4;margin:9px 10px 5px 0px; font-size:16px; width:200px"/>
+					<div id="autoRowDoctor">
+						<table id="completeTableDoctor" class="gridtable" style="position: absolute;width: 269px;margin-left:-4px;">
+						</table>
+				</div>
+				</td>
+				<td style="background-color:white"></td>
+				<td>
+					<input type="text" name="searchMedicineId" value="" class="input"
+					id="searchMedicineId" onkeyup="doCompletionMedicine()" autocomplete="off" 
+					placeholder="search here for a medicine.." style="background-color: #fff2f4;margin:9px 10px 5px 0px; font-size:16px; width:200px"/>
+					<div id="autoRowMedicine">
+						<table id="completeTableMedicine" class="gridtable" style="position: absolute;width: 269px;margin-left:-4px;">
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--header logo-->
+	<div id="logo">
+		<table class="logoTable">
+			<tr>
+				<td>
+					<img src="images/site/flower.png" alt="" style="height: 80px" />
+						<a href="HomeDoctor" style="font-size:45px;font-family:Algerian;margin-top:5px;text-decoration=none">KNN HealthCare</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--header menu options-->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="HomeDoctor"><span class="glyphicon glyphicon-home">Home</span></a></li>
+				<li><a href="DoctorSpecialityList" style='margin-left:10px;'><span class="glyphicon">Specialties</span></a></li>
+				<li><a href="MedicineList" style='margin-left:10px;'><span class="glyphicon">Medicine Store</span></a></li>
+				<!--<li><a href="#" style='margin-left:10px;'><span class="glyphicon">Pay a Bill</span></a></li>-->
+				<li><a href="WritePrescription" style='margin-left:10px;'><span class="glyphicon">Write Prescription</span></a></li>
+				<li><a href="DoctorProfile" style='margin-left:10px;'><span class="glyphicon">My Profile</span></a></li>
+				<li><a href="UpdateDoctorProfile" style='margin-left:10px;'><span class="glyphicon">Manage Profile</span></a></li>
+				<li class="dropdownViewAppointment"><button class="dropbtnViewAppointment" style="font-size:18px;color:black;word-spacing:2px;text-decoration: none;font-family: Arial, Helvetica, sans-serif;">View Appointments</button>
+					<div class="dropdown-contentView">
+						<a href="UpcomingAppointment" style="color:#000000;padding: 12px 16px;text-decoration: none;display: block;	word-spacing:2px;font-size: 16px;">View Upcoming Appointments</a>
+						<a href="VisitedAppointment" style="color:#000000;padding: 12px 16px;text-decoration: none;display: block;	word-spacing:2px;font-size: 16px;">View Visited Patient Information</a>
+					</div>	
+				</li>
+				<li><a href="AboutUs" style='margin-left:10px;'><span class="glyphicon">About Us</span></a></li>

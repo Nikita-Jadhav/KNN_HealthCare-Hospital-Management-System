@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+	<DoctorCatalog>
+		<doctor id="1">
+			<doctorName>Dr. Bob Smith</doctorName>
+			<speciality>Cardiologist</speciality>
+			<doctorImage>BobSmith_CardiacSurgeon01.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English, French</languages>
+			<emailId>bobsmith@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-111-1101</contactNumber_1>
+			<contactNumber_2>+1 (111)-111-1102</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Bob Smith is a cardiac surgeon in Chicago, Illinois and is afiliated with multiple hospitals in the area, including KNNHealthCare hospital. He is one of the top cardiac surgeon in the Illinois state.</doctorDescription>
+			<yearsInPractice>5 - 6</yearsInPractice>
+			<visitingPrice>150.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 1:30 pm to 4:30 pm</visitingDays>
+				<visitingDays>Wednesday, 1:30 pm to 4:30 pm</visitingDays>
+			</visitingDetails>
+		</doctor>
+		<doctor id="2">
+			<doctorName>Dr. Tom Dsilva</doctorName>
+			<speciality>Cardiologist</speciality>
+			<doctorImage>TomDsilva_CardiacSurgeon2.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>tomdsilva@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-111-1103</contactNumber_1>
+			<contactNumber_2>+1 (111)-111-1104</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Tom D'silva is a cardiac surgeon in Chicago, Illinois and is afiliated with multiple hospitals in the area, including KNNHealthCare hospital. He is the Executive Director and Head of the Department of Cardiology at KNNHealthCare. He is the best cardiac surgeon in the United States.</doctorDescription>
+			<yearsInPractice>19 - 20</yearsInPractice>
+			<visitingPrice>110.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Monday, 9:00 am to 12:00 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="3">
+			<doctorName>Dr. Sam John</doctorName>
+			<speciality>Cardiologist</speciality>
+			<doctorImage>SamJohn_CardiacSurgeon3.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English, Spanish</languages>
+			<emailId>samjohn@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-111-1105</contactNumber_1>
+			<contactNumber_2>+1 (111)-111-1106</contactNumber_2>
+			<qualification>MBBS, MD, DM</qualification>
+			<doctorDescription>Dr. Sam John is a famous and the best interventional cardiac surgeon. He is afiliated with KNNHealthCare hospital. He is one of 4 doctors at KNNHealthCare who specialize in Cardiac Surgery.</doctorDescription>
+			<yearsInPractice>6 - 10</yearsInPractice>
+			<visitingPrice>90.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Monday, 10:30 am to 2:30 pm</visitingDays>
+				<visitingDays>Friday, 10:30 am to 2:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="4">
+			<doctorName>Dr. Alice Periera</doctorName>
+			<speciality>Cardiologist</speciality>
+			<doctorImage>AlicePeriera_CardiacSurgeon4.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>aliceperiera@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-111-1107</contactNumber_1>
+			<contactNumber_2>+1 (111)-111-1108</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Alice Periera is a famous and the best interventional cardiac surgeon. she is afiliated with KNNHealthCare hospital and with other multiple hospitals in area. Also she has her own clinic. Dr.Periera has performed over 6,000 cardiac surgeries including over 4,200 redo bypass surgeries and over 1,700 high risk surgeries. She has 100% success rate till date.</doctorDescription>
+			<yearsInPractice>3 - 7</yearsInPractice>
+			<visitingPrice>120.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Thursday, 4:30 pm to 7:00 pm</visitingDays>
+				<visitingDays>Friday, 5:30 pm to 7:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="5">
+			<doctorName>Dr. Michael Bond</doctorName>
+			<speciality>Dermatologist</speciality>
+			<doctorImage>MichaelBond_Dermatologist1.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>michaelbond@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-111-1109</contactNumber_1>
+			<contactNumber_2>+1 (111)-111-1110</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Michael Bond has been providing outstanding dermatological care for patients with skin problems for over 30 years. He is happy to see all ages - children, teenagers, and adults. Dr. Bond has been listed in Chicago Magazine and by Castle-Conroy as one of the top Dermatologists in Chicago.</doctorDescription>
+			<yearsInPractice>30 - 35</yearsInPractice>
+			<visitingPrice>70.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Thursday, 6:30 pm to 8:00 pm</visitingDays>
+				<visitingDays>Tuesday, 1:00 pm to 3:00 pm</visitingDays>
+			</visitingDetails>	
+		</doctor>
+		<doctor id="6">
+			<doctorName>Dr. Monica Bhel</doctorName>
+			<speciality>Dermatologist</speciality>
+			<doctorImage>MonicaBhel_Dermatologist2.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English, Spanish</languages>
+			<emailId>monicabhel@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1101</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1112</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Monica Bhel, MD is a board certified dermatologist practicing surgical, and cosmetic dermatology. She strongly believes in collaborative decision making and education for patients for all conditions, from skin cancer screening and surgery, to acne, psoriasis, warts, cosmetic botox, lasers and injectable fillers. Dr. Bhel is working with KNNHealthCare since last 5 years.</doctorDescription>
+			<yearsInPractice>8 - 9</yearsInPractice>
+			<visitingPrice>60.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Wednesday, 10:00 am to 1:30 pm</visitingDays>
+			</visitingDetails>
+		</doctor>
+		<doctor id="7">
+			<doctorName>Dr. Carolyn Lopez</doctorName>
+			<speciality>Dermatologist</speciality>
+			<doctorImage>CarolynLopez_Dermatologist3.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>carolynlopez@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1103</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1114</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Carolyn Lopez, M.D. is a Board-Certified Dermatologist, Harvard-Trained Cosmetic and Laser Surgeon. She is the Founder and Medical Director of KNNHealthCare. Dr. Lopez is a well-known expert on all medical skin issues, and has been published in numerous articles and medical textbook chapters on dermatology and cosmetic surgery.</doctorDescription>
+			<yearsInPractice>15 - 20</yearsInPractice>
+			<visitingPrice>95.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Friday, 12:00 pm to 3:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="8">
+			<doctorName>Dr. Seshan Nair</doctorName>
+			<speciality>Hematologist</speciality>
+			<doctorImage>SeshanNair_Hematologist1.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>seshannair@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1105</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1116</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Seshan Nair is a hematologist in Chicago, Illinois and is affiliated with multiple hospitals in the area, including KNNHealthCare. He received his medical degree from Stanley Medical College SMC and has been in practice for more than 35 years. He is one of 5 doctors at KNNHealthCare who specialize in Hematology.</doctorDescription>
+			<yearsInPractice>35 - 40</yearsInPractice>
+			<visitingPrice>135.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Friday, 12:00 pm to 3:30 pm</visitingDays>
+				<visitingDays>Tuesday, 10:00 am to 12:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="9">
+			<doctorName>Dr. Elizabeth Joseph</doctorName>
+			<speciality>Hematologist</speciality>
+			<doctorImage>ElizabethJoseph_Hematologist2.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English, French</languages>
+			<emailId>elizabethjoseph@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1107</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1118</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Elizabeth Joseph is a famous and well-known hematologist in Chicago, Illinois and is affiliated with KNNHealthCare. Dr. Joseph has received her medical degree from Rush Medical College and has been in practice for more than 21 years.</doctorDescription>
+			<yearsInPractice>20 - 23</yearsInPractice>
+			<visitingPrice>110.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Monday, 2:30 pm to 5:00 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="10">
+			<doctorName>Dr. Jayesh Patel</doctorName>
+			<speciality>Hematologist</speciality>
+			<doctorImage>JayeshPatel_Hematologist3.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>jayeshpatel@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1109</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1110</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Jayesh Patel is a noted surgeon who has made substantial contributions to the specialty of hematology, medical training, hospital administration, and medical ethics. Dr. Patel is one of the best doctor in the world for specialty of hematology.</doctorDescription>
+			<yearsInPractice>45 - 49</yearsInPractice>
+			<visitingPrice>130.00</visitingPrice>	
+			<visitingDetails>
+				<visitingDays>Thursday,1:00 pm to 4:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="11">
+			<doctorName>Dr. Priti Desai</doctorName>
+			<speciality>Hematologist</speciality>
+			<doctorImage>PritiDesai_Hematologist4.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English, German</languages>
+			<emailId>pritidesai@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1111</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1112</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Priti Desai is a hematologist in Chicago, Illinois and is affiliated with multiple hospitals in the area, including KNNHealthCare. He received his medical degree from Stanley Medical College SMC and has been in practice for more than 35 years. He is one of 5 doctors at KNNHealthCare who specialize in Hematology.</doctorDescription>
+			<yearsInPractice>2 - 5</yearsInPractice>
+			<visitingPrice>90.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 10:00 am to 11:30 am</visitingDays>
+				<visitingDays>Thursday,1:00 pm to 4:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="12">
+			<doctorName>Dr. Diana Ware</doctorName>
+			<speciality>Hematologist</speciality>
+			<doctorImage>DianaWare_Hematologist5.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>dianaware@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-211-1113</contactNumber_1>
+			<contactNumber_2>+1 (111)-211-1114</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Diana Ware is a hematologist in Chicago, Illinois and is affiliated with KNNHealthCare. She also has her own clinic in Chicago. She received her medical degree from University of Pennsylvania, Perelman School of Medicine and has been in practice for more than 5 years. Dr. Ware is one of 5 doctors at KNNHealthCare who specialize in Hematology.</doctorDescription>
+			<yearsInPractice>5 - 7</yearsInPractice>
+			<visitingPrice>115.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Friday, 11:00 am to 12:30 pm</visitingDays>
+				<visitingDays>Thursday,3:00 pm to 5:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="13">
+			<doctorName>Dr. Malika Patel</doctorName>
+			<speciality>Neonatologist</speciality>
+			<doctorImage>MalikaPatel_Neonatologist1.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English, Spanish, Gujarati</languages>
+			<emailId>malikapatel@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1101</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1102</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Malika Patel is a neonatologist in Chicago, Illinois and is affiliated with KNNHealthCare. She received her medical degree from Baylor College of Medicine and has been in practice for more than 5 years. Dr. Ware is one of 3 doctors at KNNHealthCare who specialize in Neonatologist.</doctorDescription>
+			<yearsInPractice>5 - 7</yearsInPractice>
+			<visitingPrice>125.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 9:00 am to 11:00 am</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="14">
+			<doctorName>Dr. Jennifer Fernandes</doctorName>
+			<speciality>Neonatologist</speciality>
+			<doctorImage>JenniferFernandes_Neonatologist2.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English, Mexican</languages>
+			<emailId>jenniferfernandes@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1103</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1104</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Jennifer Fernandes is an internist treating patients in Chicago, Illinois, and in the surrounding communities. Her goal as a practitioner is to ensure that her patients receive the highest standard of medical care. She holds certification from the American Board of Internal Medicine and is affiliated with KNNHealthCare.</doctorDescription>
+			<yearsInPractice>2 - 4</yearsInPractice>
+			<visitingPrice>65.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 3:00 pm to 4:30 pm</visitingDays>
+				<visitingDays>Wednesday,6:00 pm to 8:30 pm</visitingDays>
+				<visitingDays>Friday,3:00 pm to 5:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="15">
+			<doctorName>Dr. Katrina Joyce</doctorName>
+			<speciality>Neonatologist</speciality>
+			<doctorImage>KatrinaJoyce_Neonatologist3.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>katrinajoyce@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1105</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1106</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Katrina Joyce is a neonatologist in Chicago, Illinois and is affiliated with KNNHealthCare. Dr. Joyce received her medical degree from Loyola University Stritch School of Medicine and has been in practice for more than 15 years.</doctorDescription>
+			<yearsInPractice>15 - 16</yearsInPractice>
+			<visitingPrice>100.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Wednesday, 3:00 pm to 6:00 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="16">
+			<doctorName>Dr. Patrick Watson</doctorName>
+			<speciality>Nephrologist</speciality>
+			<doctorImage>PatrickWatson_Nephrologist1.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>patrickwatson@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1107</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1108</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Patrick Watson is a nephrologist specializing in treatment of glomeronephritis and nephrotic syndrome. He performs ultrasound-guided kidney biopsies and manages immunosuppressive medications. His other activities include the care of patients with kidney transplants, and use of bedside renal ultrasound to aid diagnosis of kidney diseases.</doctorDescription>
+			<yearsInPractice>19 - 22</yearsInPractice>
+			<visitingPrice>140.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 2:00 pm to 4:00 pm</visitingDays>
+				<visitingDays>Wednesday,7:00 pm to 9:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="17">
+			<doctorName>Dr. Veer Singh</doctorName>
+			<speciality>Nephrologist</speciality>
+			<doctorImage>VeerSingh_Nephrologist2.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English, Hindi</languages>
+			<emailId>veersingh@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1109</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1110</contactNumber_2>
+			<qualification>MBBS, MD</qualification>
+			<doctorDescription>The Director at the department of Nephrology at KNNHealthCare, Dr. Veer Singh has over 30 years of experience in his field. His areas of interest includes Nephrology and Pediatric Nephrology and key specialities include Dialysis and Renal Failure. Dr. Veer Singh is considered one of the top transplant physicians and nephrologists in Chicago.</doctorDescription>
+			<yearsInPractice>30 - 34</yearsInPractice>
+			<visitingPrice>160.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Thursday, 9:00 am to 11:00 am</visitingDays>
+			</visitingDetails>				
+		</doctor>
+		<doctor id="18">
+			<doctorName>Dr. Saras Chandra</doctorName>
+			<speciality>Nephrologist</speciality>
+			<doctorImage>SarasChandra_Nephrologist3.png</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>saraschandra@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1111</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1112</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>A Consultant at the department of Nephrology in KNNHealthCare, Chicago, Dr. Saras Chandra has over 15 years of experience in his field.</doctorDescription>
+			<yearsInPractice>13 - 17</yearsInPractice>
+			<visitingPrice>110.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Friday,1:00 pm to 3:30 pm</visitingDays>
+			</visitingDetails>				
+		</doctor>
+		<doctor id="19">
+			<doctorName>Dr. Karan Patel</doctorName>
+			<speciality>Nephrologist</speciality>
+			<doctorImage>KaranPatel_Nephrologist4.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English, Gujarati</languages>
+			<emailId>karanpatel@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1113</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1114</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Karan Patel has over 2 decades of rich professional experience in his field. Dr. Karan Patel has treated several patients suffering from kidney diseases in United States and gives every patient the best of medical care. He has published several papers in United States and is a member of prestigious medical associations.</doctorDescription>
+			<yearsInPractice>20 - 25</yearsInPractice>
+			<visitingPrice>90.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 1:45 pm to 4:00 pm</visitingDays>
+				<visitingDays>Wednesday,1:00 pm to 3:30 pm</visitingDays>
+			</visitingDetails>				
+		</doctor>
+		<doctor id="20">
+			<doctorName>Dr. David Kar</doctorName>
+			<speciality>Neurologist</speciality>
+			<doctorImage>DavidKar_Neurologist1.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English, Spanish, Taglog</languages>
+			<emailId>davidkar@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1115</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1116</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Specializing in the field of Neurology, Dr. David Kar treats all types of neurological disorders resulting from abnormalities in the brain, spinal cord and other nerves throughout the body. Dr. Calimag is trained to perform a variety of tests and scans to diagnosis patients in office which is vital to creating an effective treatment plan.</doctorDescription>
+			<yearsInPractice>35 - 38</yearsInPractice>
+			<visitingPrice>190.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Wednesday, 2:45 pm to 4:45 pm</visitingDays>
+				<visitingDays>Friday, 1:00 pm to 3:30 pm</visitingDays>
+			</visitingDetails>				
+		</doctor>
+		<doctor id="21">
+			<doctorName>Dr. Meira Gupta</doctorName>
+			<speciality>Neurologist</speciality>
+			<doctorImage>MeiraGupta_Neurologist2.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English, Hindi</languages>
+			<emailId>meiraguptar@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-311-1117</contactNumber_1>
+			<contactNumber_2>+1 (111)-311-1118</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Meira Gupta, MD is a Board Certified Neurologist delivering specialized care for all major and complex neurological conditions from stroke and multiple sclerosis to headache and movement disorders to back pain.</doctorDescription>
+			<yearsInPractice>35 - 38</yearsInPractice>
+			<visitingPrice>170.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 4:00 pm to 6:00 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="22">
+			<doctorName>Dr. Odet Pie</doctorName>
+			<speciality>Neurologist</speciality>
+			<doctorImage>OdetPie_Neurologist3.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>odetpie@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-411-1101</contactNumber_1>
+			<contactNumber_2>+1 (111)-411-1102</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Odet Pie, MD has been on staff at KNNHealthCare for number of years and has helped hundreds of patients overcome their neurological disabilities.</doctorDescription>
+			<yearsInPractice>5 - 11</yearsInPractice>
+			<visitingPrice>110.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Thursday, 12:00 pm to 3:00 pm</visitingDays>
+			</visitingDetails>				
+		</doctor>
+		<doctor id="23">
+			<doctorName>Dr. Tonny Winget</doctorName>
+			<speciality>Physician</speciality>
+			<doctorImage>TonnyWinget_Physician1.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>tonnywinget@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-411-1103</contactNumber_1>
+			<contactNumber_2>+1 (111)-411-1104</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Tonny Winget takes a personal and compassionate approach to patient care and is part of a pioneering concept to provide convenient, accessible and quality healthcare to patients in KNNHealthCare, Chicago. He is a firm believer in educating his patients on the value of teaching patients to live a healthy lifestyle through disease prevention, eating correctly and exercising regularly.</doctorDescription>
+			<yearsInPractice>40 - 43</yearsInPractice>
+			<visitingPrice>85.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Monday, 11:00 am to 1:00 pm</visitingDays>
+				<visitingDays>Tuesday,3:00 pm to 5:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="24">
+			<doctorName>Dr. Erica Potter</doctorName>
+			<speciality>Physician</speciality>
+			<doctorImage>EricaPotter_Physician2.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>ericapotter@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-411-1105</contactNumber_1>
+			<contactNumber_2>+1 (111)-411-1106</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Erica Potter is a qualified primary care doctor, with a specialty muscular pain. She looks after the community of Chicago, IL and including a physician at KNNHealthCare. Dr. Potter received her medical degree from the University of New England College of Medicine.</doctorDescription>
+			<yearsInPractice>15 - 20</yearsInPractice>
+			<visitingPrice>80.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Wednesday, 1:00 pm to 3:00 pm</visitingDays>
+				<visitingDays>Friday,2:00 pm to 4:30 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="25">
+			<doctorName>Dr. Nisha Rai</doctorName>
+			<speciality>Physician</speciality>
+			<doctorImage>NishaRai_Physician3.jpg</doctorImage>
+			<gender>Female</gender>
+			<languages>English</languages>
+			<emailId>nisharai@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-411-1107</contactNumber_1>
+			<contactNumber_2>+1 (111)-411-1108</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Nisha Rai is a famous physician. She is affiliated with the KNNHealthCare and multiple other hospitals. Dr. Rai treats her patient like family.</doctorDescription>
+			<yearsInPractice>2 - 3</yearsInPractice>
+			<visitingPrice>60.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Tuesday, 3:00 pm to 5:00 pm</visitingDays>
+			</visitingDetails>			
+		</doctor>
+		<doctor id="26">
+			<doctorName>Dr. Atharv Rathod</doctorName>
+			<speciality>Physician</speciality>
+			<doctorImage>AtharvRathod_Physician4.jpg</doctorImage>
+			<gender>Male</gender>
+			<languages>English</languages>
+			<emailId>atharvrathod@knnhealthcare.net</emailId>
+			<contactNumber_1>+1 (111)-411-1109</contactNumber_1>
+			<contactNumber_2>+1 (111)-411-1110</contactNumber_2>
+			<qualification>MD</qualification>
+			<doctorDescription>Dr. Atharv Rathod is a primary care doctor treating patients in KNNHealthCare, Chicago, Illinois, and the surrounding communities. He is the founder and owner of For Your Health and Wellness and he strives to provide optimal care for each of his patients. Dr. Rathod is also affiliated with facilities including Advocate Trinity Hospital and Kindred Hospital–Chicago.</doctorDescription>
+			<yearsInPractice>17 - 20</yearsInPractice>
+			<visitingPrice>100.00</visitingPrice>
+			<visitingDetails>
+				<visitingDays>Thursday, 2:00 pm to 4:00 pm</visitingDays>
+			</visitingDetails>				
+		</doctor>
+	</DoctorCatalog>
+	
+	<MedicineCatalog>
+		<Medicine id="cosamin">
+			<name>cosamin</name>
+			<productType>Allergies</productType>
+			<price>100.00</price>
+			<image>dru1.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-11-12</manufactureDate>
+			<bestBeforeDate>2019-11-12</bestBeforeDate>
+			<description>Adrenocortical suppressant for oral use</description>
+			<discount>5.00</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Centrum Multivitamins">
+			<name>Centrum Multivitamins</name>
+			<productType>Allergies</productType>
+			<price>125.00</price>
+			<image>dru2.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-11-12</manufactureDate>
+			<bestBeforeDate>2019-11-15</bestBeforeDate>
+			<description>Emollient Cream</description>
+			<discount>5.00</discount>
+			<originalProductquantity>80</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>		
+			</accessories>-->
+		</Medicine>
+		<Medicine id="EmunaidMAX">
+			<name>EmunaidMAX</name>
+			<productType>Allergies</productType>
+			<price>150.00</price>
+			<image>dru3.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-9-18</bestBeforeDate>
+			<description>First Aid ointment reduces pain and infection</description>
+			<discount>6.00</discount>
+			<originalProductquantity>120</originalProductquantity>
+			<manufacturerRebate>4.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>		
+			</accessories>-->
+		</Medicine>
+		<Medicine id="mucinex">
+			<name>mucinex</name>
+			<productType>Allergies</productType>
+			<price>16.00</price>
+			<image>food.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-1-12</manufactureDate>
+			<bestBeforeDate>2019-11-10</bestBeforeDate>
+			<description>Sneezing,Ichy and watery eyes</description>
+			<discount>7.00</discount>
+			<originalProductquantity>200</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="allegra">
+			<name>allegra</name>
+			<productType>Allergies</productType>
+			<price>85.00</price>
+			<image>food1.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-10-12</manufactureDate>
+			<bestBeforeDate>2020-10-12</bestBeforeDate>
+			<description>Indoor/Outdoor Allegery relief</description>
+			<discount>5.00</discount>
+			<originalProductquantity>150</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Equate">
+			<name>Equate</name>
+			<productType>Allergies</productType>
+			<price>86.00</price>
+			<image>food3.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-10-13</manufactureDate>
+			<bestBeforeDate>2019-10-19</bestBeforeDate>
+			<description>Indoor and Outdoor allergies</description>
+			<discount>0.00</discount>
+			<originalProductquantity>180</originalProductquantity>
+			<manufacturerRebate>10.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Advil">
+			<name>Advil</name>
+			<productType>Allergies</productType>
+			<price>25.00</price>
+			<image>seas.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-10-12</manufactureDate>
+			<bestBeforeDate>2019-1-10</bestBeforeDate>
+			<description>Allergy and Congestion Relief</description>
+			<discount>5.0</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>5</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Zyrtec">
+			<name>Zyrtec</name>
+			<productType>Allergies</productType>
+			<price>90.00</price>
+			<image>seas1.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-08-12</manufactureDate>
+			<bestBeforeDate>2020-07-12</bestBeforeDate>
+			<description>Indoor/Outdoor allergy relief</description>
+			<discount>5.00</discount>
+			<originalProductquantity>350</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>		
+			</accessories>-->
+		</Medicine>
+		<Medicine id="EarAcheTab">
+			<name>EarAcheTab</name>
+			<productType>Allergies</productType>
+			<price>50</price>
+			<image>seas2.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-11-12</bestBeforeDate>
+			<description>Relieves ear pain fast</description>
+			<discount>0.0</discount>
+			<originalProductquantity>220</originalProductquantity>
+			<manufacturerRebate>15.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Flonase">
+			<name>Flonase</name>
+			<productType>Allergies</productType>
+			<price>50.00</price>
+			<image>seas3.jpg</image>
+			<manufacturer>AllergyMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-12-15</bestBeforeDate>
+			<description>Allergy Relief</description>
+			<discount>11.00</discount>
+			<originalProductquantity>145</originalProductquantity>
+			<manufacturerRebate>2.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>pipette</accessory>	
+				<accessory>Hotwaterbag</accessory>		
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Certi-Sporyn">
+			<name>Certi-Sporyn</name>
+			<productType>Antibiotics</productType>
+			<price>180.00</price>
+			<image>AB2.JPG</image>
+			<manufacturer>AntibioticsMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-12-20</bestBeforeDate>
+			<description>Antibiotic Cream</description>
+			<discount>25.00</discount>
+			<originalProductquantity>90</originalProductquantity>
+			<manufacturerRebate>4.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>	
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Neosporin">
+			<name>Neosporin</name>
+			<productType>Antibiotics</productType>
+			<price>119.99</price>
+			<image>AB3.jpg</image>
+			<manufacturer>AntibioticsMan</manufacturer>
+			<manufactureDate>2018-10-12</manufactureDate>
+			<bestBeforeDate>2019-05-12</bestBeforeDate>
+			<description>Soothing Infection Protection</description>
+			<discount>18.99</discount>
+			<originalProductquantity>160</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Cephalexin">
+			<name>Cephalexin</name>
+			<productType>Antibiotics</productType>
+			<price>159.99</price>
+			<image>AB4.JPG</image>
+			<manufacturer>AntibioticsMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-11-25</bestBeforeDate>
+			<description>Antibiotic</description>
+			<discount>29.99</discount>
+			<originalProductquantity>210</originalProductquantity>
+			<manufacturerRebate>6.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="loperamide HCI">
+			<name>loperamide HCI</name>
+			<productType>Antibiotics</productType>
+			<price>70.00</price>
+			<image>AB5.JPG</image>
+			<manufacturer>AntibioticsMan</manufacturer>
+			<manufactureDate>2018-11-02</manufactureDate>
+			<bestBeforeDate>2021-12-10</bestBeforeDate>
+			<description>Anti-Diarrheal</description>
+			<discount>0.00</discount>
+			<originalProductquantity>170</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Roxalia">
+			<name>Roxalia</name>
+			<productType>Antibiotics</productType>
+			<price>84.00</price>
+			<image>AB6.JPG</image>
+			<manufacturer>AntibioticsMan</manufacturer>
+			<manufactureDate>2018-10-12</manufactureDate>
+			<bestBeforeDate>2021-10-11</bestBeforeDate>
+			<description>Sore Throat</description>
+			<discount>0.0</discount>
+			<originalProductquantity>300</originalProductquantity>
+			<manufacturerRebate>10.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Vectavir">
+			<name>Vectavir</name>
+			<productType>Anti Viral</productType>
+			<price>20.00</price>
+			<image>AV2.jpg</image>
+			<manufacturer>AntiviralMan</manufacturer>
+			<manufactureDate>2018-10-26</manufactureDate>
+			<bestBeforeDate>2019-05-20</bestBeforeDate>
+			<description>Cold Sore</description>
+			<discount>4.00</discount>
+			<originalProductquantity>195</originalProductquantity>
+			<manufacturerRebate>1.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Oscillococcinum">
+			<name>Oscillococcinum</name>
+			<productType>Anti Viral</productType>
+			<price>150.00</price>
+			<image>AV1.JPG</image>
+			<manufacturer>AntiviralMan</manufacturer>
+			<manufactureDate>2018-10-01</manufactureDate>
+			<bestBeforeDate>2022-12-09</bestBeforeDate>
+			<description>Flu like symtoms</description>
+			<discount>20.00</discount>
+			<originalProductquantity>9</originalProductquantity>
+			<manufacturerRebate>25.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Hotwaterbag</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="TrilexEssentials">
+			<name>TrilexEssentials</name>
+			<productType>Anti Viral</productType>
+			<price>95.00</price>
+			<image>AV3.JPG</image>
+			<manufacturer>AntiviralMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-12-20</bestBeforeDate>
+			<description>Fever Blister Treatment</description>
+			<discount>5.00</discount>
+			<originalProductquantity>150</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<!--<Medicine id="">
+			<name></name>
+			<productType>Heart Disease</productType>			
+			<price></price>
+			<image></image>
+			<manufacturer></manufacturer>
+			<manufactureDate></manufactureDate>
+			<bestBeforeDate></bestBeforeDate>
+			<description></description>
+			<discount>5.0</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>5</manufacturerRebate>
+			<accessories>
+				<accessory>fw1</accessory>		
+			</accessories>
+		</Medicine>-->
+		<Medicine id="HeartMiracle">
+			<name>HeartMiracle</name>
+			<productType>Heart Disease</productType>
+			<price>50.00</price>
+			<image>H1.jpg</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2022-12-20</bestBeforeDate>
+			<description>Heart,Blood Presssure and Cholestrol</description>
+			<discount>10.00</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>4.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="NewChapter">
+			<name>NewChapter</name>
+			<productType>Heart Disease</productType>
+			<price>54.99</price>
+			<image>H2.JPG</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2019-12-25</bestBeforeDate>
+			<description>Healthy Blood Vessel Function</description>
+			<discount>9.99</discount>
+			<originalProductquantity>200</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Nature's Bounty Garlic">
+			<name>Nature's Bounty Garlic</name>
+			<productType>Heart Disease</productType>
+			<price>25.00</price>
+			<image>H3.JPG</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2022-12-20</bestBeforeDate>
+			<description>Heart and Circulatory Function</description>
+			<discount>0.00</discount>
+			<originalProductquantity>160</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Gundry MD">
+			<name>Gundry MD</name>
+			<productType>Heart Disease</productType>
+			<price>40.00</price>
+			<image>H4.jpg</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-10-29</manufactureDate>
+			<bestBeforeDate>2019-12-20</bestBeforeDate>
+			<description>Optimum heart health</description>
+			<discount>15.00</discount>
+			<originalProductquantity>300</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+		<Medicine id="DHerbs">
+			<name>DHerbs</name>
+			<productType>Heart Disease</productType>
+			<price>20.00</price>
+			<image>H5.jpg</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-10-28</manufactureDate>
+			<bestBeforeDate>2019-03-20</bestBeforeDate>
+			<description>Cardiovascular Tea</description>
+			<discount>5.00</discount>
+			<originalProductquantity>350</originalProductquantity>
+			<manufacturerRebate>2.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Pure Synergy">
+			<name>Pure Synergy</name>
+			<productType>Heart Disease</productType>
+			<price>49.99</price>
+			<image>H6.JPG</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>2019-12-20</bestBeforeDate>
+			<description>Support healthy heart and cardiovascular system</description>
+			<discount>0.00</discount>
+			<originalProductquantity>150</originalProductquantity>
+			<manufacturerRebate>8.99</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+		<Medicine id="HeartCare">
+			<name>HeartCare</name>
+			<productType>Heart Disease</productType>
+			<price>30.00</price>
+			<image>H7.jpg</image>
+			<manufacturer>HeartMan</manufacturer>
+			<manufactureDate>2018-02-20</manufactureDate>
+			<bestBeforeDate>2022-03-25</bestBeforeDate>
+			<description>Improves blood and nutrient flow</description>
+			<discount>5.00</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="KidneyCare">
+			<name>KidneyCare</name>
+			<productType>Kidney Disease</productType>
+			<price>38.00</price>
+			<image>K1.JPG</image>
+			<manufacturer>KidneyMan</manufacturer>
+			<manufactureDate>2018-02-20</manufactureDate>
+			<bestBeforeDate>2022-03-25</bestBeforeDate>
+			<description>For kidney Care</description>
+			<discount>3.00</discount>
+			<originalProductquantity>80</originalProductquantity>
+			<manufacturerRebate>6.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>syringe</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Miralax">
+			<name>Miralax</name>
+			<productType>Kidney Disease</productType>
+			<price>25.00</price>
+			<image>K2.jpg</image>
+			<manufacturer>KidneyMan</manufacturer>
+			<manufactureDate>2018-10-20</manufactureDate>
+			<bestBeforeDate>202312-20</bestBeforeDate>
+			<description>maintains kidney cleansing</description>
+			<discount>5.00</discount>
+			<originalProductquantity>110</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+		<Medicine id="HealthPlus">
+			<name>HealthPlus</name>
+			<productType>Kidney Disease</productType>
+			<price>26.00</price>
+			<image>K3.jpg</image>
+			<manufacturer>KidneyMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2021-12-26</bestBeforeDate>
+			<description>Kidney cleansing</description>
+			<discount>0.00</discount>
+			<originalProductquantity>150</originalProductquantity>
+			<manufacturerRebate>6.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Swanson">
+			<name>Swanson</name>
+			<productType>Kidney Disease</productType>
+			<price>50.00</price>
+			<image>K4.jpg</image>
+			<manufacturer>KidneyMan</manufacturer>
+			<manufactureDate>2018-12-20</manufactureDate>
+			<bestBeforeDate>2022-12-05</bestBeforeDate>
+			<description>Urinary Tract Health</description>
+			<discount>5.00</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>15.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+		<Medicine id="prosacea">
+			<name>prosacea</name>
+			<productType>Skincare</productType>
+			<price>25.00</price>
+			<image>S1.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2019-12-15</bestBeforeDate>
+			<description>Control Rosacea</description>
+			<discount>5.00</discount>
+			<originalProductquantity>100</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+		<Medicine id="proactive">
+			<name>proactive</name>
+			<productType>Skincare</productType>
+			<price>56.00</price>
+			<image>S2.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2019-12-20</bestBeforeDate>
+			<description>Cleanser,Toner and Treatment</description>
+			<discount>3.00</discount>
+			<originalProductquantity>120</originalProductquantity>
+			<manufacturerRebate>3.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="emuaid">
+			<name>emuaid</name>
+			<productType>Skincare</productType>
+			<price>25.00</price>
+			<image>S3.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2019-12-20</bestBeforeDate>
+			<description>Overnight Acne Treatment</description>
+			<discount>5.00</discount>
+			<originalProductquantity>95</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="proactiveMD">
+			<name>proactiveMD</name>
+			<productType>Skincare</productType>
+			<price>30.00</price>
+			<image>S4.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-10-25</manufactureDate>
+			<bestBeforeDate>2022-12-20</bestBeforeDate>
+			<description>cleansing and Toning </description>
+			<discount>0.0</discount>
+			<originalProductquantity>80</originalProductquantity>
+			<manufacturerRebate>10.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>			
+			</accessories>-->
+		</Medicine>
+		<Medicine id="Nerd">
+			<name>Nerd</name>
+			<productType>Skincare</productType>
+			<price>150.00</price>
+			<image>S5.png</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-12-25</manufactureDate>
+			<bestBeforeDate>2019-10-20</bestBeforeDate>
+			<description>Acne Treatment</description>
+			<discount>30.00</discount>
+			<originalProductquantity>60</originalProductquantity>
+			<manufacturerRebate>15.00</manufacturerRebate>
+			<!--<accessories>
+				<accessory>gloves</accessory>	
+				<accessory>Mask</accessory>				
+			</accessories>-->
+		</Medicine>
+	</MedicineCatalog>
+	<AccessoryCatalog>
+		<accessory id="pipette">
+			<name>Pipette</name>
+			<productType>Accessory</productType>
+			<price>150.00</price>
+			<image>A1.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-12-25</manufactureDate>
+			<bestBeforeDate>2019-10-20</bestBeforeDate>
+			<description>NA</description>
+			<discount>22.00</discount>
+			<originalProductquantity>60</originalProductquantity>
+			<manufacturerRebate>8.00</manufacturerRebate>
+		</accessory>
+		<accessory id="Hotwaterbag">
+			<name>Hot Water Bag</name>
+			<productType>Accessory</productType>
+			<price>100.00</price>
+			<image>A2.jpeg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-12-25</manufactureDate>
+			<bestBeforeDate>2019-10-20</bestBeforeDate>
+			<description>NA</description>
+			<discount>20.00</discount>
+			<originalProductquantity>60</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+		</accessory>
+		<accessory id="syringe">
+			<name>Syringe</name>
+			<productType>Accessory</productType>
+			<price>50.00</price>
+			<image>A3.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-12-25</manufactureDate>
+			<bestBeforeDate>2019-10-20</bestBeforeDate>
+			<description>NA</description>
+			<discount>0.00</discount>
+			<originalProductquantity>60</originalProductquantity>
+			<manufacturerRebate>15.00</manufacturerRebate>
+		</accessory>
+		<accessory id="Mask">
+			<name>Protection Mask</name>
+			<productType>Accessory</productType>
+			<price>150.00</price>
+			<image>A11.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-12-25</manufactureDate>
+			<bestBeforeDate>2019-10-20</bestBeforeDate>
+			<description>NA</description>
+			<discount>30.00</discount>
+			<originalProductquantity>60</originalProductquantity>
+			<manufacturerRebate>0.00</manufacturerRebate>
+		</accessory>
+		<accessory id="gloves">
+			<name>Gloves</name>
+			<productType>Accessory</productType>
+			<price>45.00</price>
+			<image>A12.jpg</image>
+			<manufacturer>SkincareMan</manufacturer>
+			<manufactureDate>2018-12-25</manufactureDate>
+			<bestBeforeDate>2019-10-20</bestBeforeDate>
+			<description>NA</description>
+			<discount>10.00</discount>
+			<originalProductquantity>60</originalProductquantity>
+			<manufacturerRebate>5.00</manufacturerRebate>
+		</accessory>
+	</AccessoryCatalog>	
+</ProductCatalog>

@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>KNN HealthCare</title>
+<link rel="icon" href="images/site/flower.png" type="image/png">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="keywords" content="Appointment,Medicine Store,Find a doctor" />
+<meta name="description" content="Electronics gadgets online shopping website." />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- Links for Jquery and bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script>
+$(document).ready(function(){
+
+	$('#myCarousel').carousel({
+  interval: 3000
+})
+
+$('.carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+});
+});
+</script>
+
+  <script>
+  var req;
+  var completeTable;
+  var autoRow;
+  var isIE;
+  var appoint;
+$(document).ready(function(){
+  $(".ddlSpecialty").on("change", function(){
+  var selectedValue = $('#ddlSpecialty').val();
+  completeTable = document.getElementById("complete-table");
+  appoint=document.getElementById("ddlDoctor");
+   autoRow = document.getElementById("appointment");
+  populateDoctors(selectedValue);
+});
+});
+function populateDoctors(selectedValue) {
+	var temp=selectedValue;
+	var url3 = "populatedoctors?speciality="+temp;
+	req = initRequest();
+	req.open("GET", url3, true);
+	req.onreadystatechange = callbackPopulateDoctor;
+	req.send(null);
+}
+function initRequest() {
+    if (window.XMLHttpRequest) {
+        if (navigator.userAgent.indexOf('MSIE') != -1) {
+            isIE = true;
+        }
+        return new XMLHttpRequest();
+    } else if (window.ActiveXObject) {
+        isIE = true;
+        return new ActiveXObject("Microsoft.XMLHTTP");
+    }
+}
+function callbackPopulateDoctor()
+{
+	clearDoctorTable();
+	clearDayTable();
+	 
+	if (req.readyState == 4)
+	{		
+        if (req.status == 200)
+		{			
+            parseDoctorMessages(req.responseXML);
+        }
+    }
+}
+function clearDoctorTable()
+{
+	var select = document.getElementById("ddlDoctor");
+	var length = select.options.length;
+	for (i = 0; i < length; i++)
+	{
+		select.options[i] = null;
+	}
+}
+function parseDoctorMessages(responseXML)
+{
+    if (responseXML == null)
+	{
+        return false;
+    } 
+	else
+	{
+        var doctors = responseXML.getElementsByTagName("doctors")[0];
+        if (doctors.childNodes.length > 0)
+		{
+            completeTable.setAttribute("bordercolor", "black");
+            completeTable.setAttribute("border", "1");
+			appoint.setAttribute("bordercolor", "black");
+            appoint.setAttribute("border", "1");
+			appoint.setAttribute("border-radius", "5");
+            for (loop = 0; loop < doctors.childNodes.length; loop++)
+			{
+                var doctor = doctors.childNodes[loop];
+                var doctorName = doctor.getElementsByTagName("doctorName")[0];
+                appendDoctor(doctorName.childNodes[0].nodeValue);
+            }
+        }
+    }
+}
+function appendDoctor(doctorName)
+{
+    var row;
+    var cell;
+    var linkElement;
+	var op;
+    
+	appoint.style.display='select';
+	op=document.createElement("option");
+	op.style.color = "black";
+	appoint.appendChild(op);	
+    completeTable.style.display = 'none';
+    row = document.createElement("tr");
+    cell = document.createElement("td");
+    row.appendChild(cell);
+    completeTable.appendChild(row);
+    cell.className = "popupCell";
+	linkElement = document.createElement("a");
+    linkElement.className = "popupItem";
+    linkElement.appendChild(document.createTextNode(doctorName));
+    cell.appendChild(linkElement);
+	op.appendChild(linkElement);
+	linkElement.style='color:black;font-size:15px;font-family:Century Schoolbook;';
+}
+</script>
+
+<script type="text/javascript">
+var xMLHttpRequest = new XMLHttpRequest();
+$(document).ready(function(){
+  $(".quantity").on("input", function(){
+  var parent = $(this).closest('tr');
+  var totalAmt = parseFloat(parent.find('.total').val());
+  var discount = parseFloat(parent.find('.orderDiscount').val());
+  var rebate = parseFloat(parent.find('.orderRebate').val());
+  var productName = parent.find('.proName').val();
+  var quantity = parseInt($(this).val());
+  parent.find('.total_price').text(totalAmt*quantity);
+  parent.find('.total_discount').text(discount*quantity);
+  parent.find('.total_rebate').text(rebate*quantity);
+  parent.find('').text(totalAmt*quantity);
+  parent.find('.total_amount').text((totalAmt*quantity)-((discount*quantity) + (rebate*quantity)));
+  parent.find('.qT').val(quantity);
+  calcul_total_quatities(quantity,productName);
+});
+});
+
+function calcul_total_quatities(quantity,productName)
+{
+  var total = 0;
+  var discount1 = 0;
+  var rebate1=0;
+  var original=0;
+   $('.total_price').each(function(){
+    original += parseInt( $(this).text() );
+  })
+  $('.total_amount').each(function(){
+    total += parseInt( $(this).text() );
+  })
+   $('.total_discount').each(function(){
+    discount1 += parseInt( $(this).text() );
+  })
+  $('.total_rebate').each(function(){
+    rebate1 += parseInt( $(this).text() );
+  })
+$('.subTotal').val(original);
+  $('.total_all_amounts').val(total);
+ $('.orderFinalDiscount').val(discount1);
+ $('.orderFinalRebate').val(rebate1); 
+  post_data_to_server(quantity,productName);
+}
+
+function post_data_to_server(quantity,productName)
+{
+xMLHttpRequest = new XMLHttpRequest();
+var temp;
+temp=quantity;
+var url2 = "demoquantity?quantity="+temp+"&productName="+productName;
+xMLHttpRequest.open("GET", url2, true);
+xMLHttpRequest.onreadystatechange = callback;
+xMLHttpRequest.send(null);
+}
+
+function callback() {
+    if (xMLHttpRequest.readyState == 4) {
+        if (xMLHttpRequest.status == 200) {
+            var JSONQuantityObject=eval('(' + xMLHttpRequest.responseText + ')');
+			var table = document.getElementById('demo4');
+			table.innerHTML='';
+			var headrow = table.insertRow(0);
+			var headcell = headrow.insertCell(0);
+			headcell.style.background='yellow';
+			headcell.innerHTML=JSONQuantityObject.quantity.name;
+			headcell.innerHTML=JSONQuantityObject.quantity.pname;
+        }
+    }
+}
+</script>
+
+<script>
+  var req;
+  var completeTable1;
+  var isIE;
+  var dropdown;
+$(document).ready(function(){
+  $(".ddlDoctor").on("change", function(){
+  var selectedDoctorValue = $('#ddlDoctor').val();
+  completeTable1 = document.getElementById("completetable");
+  dropdown=document.getElementById("ddlDay");
+  populateDays(selectedDoctorValue);
+});
+});
+function populateDays(selectedDoctorValue) {
+	var temp=selectedDoctorValue;
+	var url4 = "populatedays?doctor="+temp;
+	req = initRequest();
+	req.open("GET", url4, true);
+	req.onreadystatechange = callbackPopulateDay;
+	req.send(null);
+}
+function initRequest() {
+    if (window.XMLHttpRequest) {
+        if (navigator.userAgent.indexOf('MSIE') != -1) {
+            isIE = true;
+        }
+        return new XMLHttpRequest();
+    } else if (window.ActiveXObject) {
+        isIE = true;
+        return new ActiveXObject("Microsoft.XMLHTTP");
+    }
+}
+function callbackPopulateDay()
+{
+	clearDayTable();
+	if (req.readyState == 4)
+	{		
+        if (req.status == 200)
+		{	
+            parseDayMessages(req.responseXML);
+        }
+    }
+}
+function clearDayTable()
+{
+	var select = document.getElementById("ddlDay");
+	var length = select.options.length;
+	for (i = 0; i < length; i++)
+	{
+		select.options[i] = null;
+	}
+}
+function parseDayMessages(responseXML)
+{
+    if (responseXML == null)
+	{
+        return false;
+    } 
+	else
+	{
+        var days = responseXML.getElementsByTagName("days")[0];
+        if (days.childNodes.length > 0)
+		{
+            completeTable1.setAttribute("bordercolor", "black");
+            completeTable1.setAttribute("border", "1");
+			dropdown.setAttribute("bordercolor", "black");
+            dropdown.setAttribute("border", "1");
+			dropdown.setAttribute("border-radius", "5");
+            for (loop = 0; loop < days.childNodes.length; loop++)
+			{
+                var day = days.childNodes[loop];
+                var dayName = day.getElementsByTagName("dayName")[0];
+                appendDay(dayName.childNodes[0].nodeValue);
+            }
+        }
+    }
+}
+function appendDay(dayName)
+{
+    var row;
+    var cell;
+    var linkElement;
+	var op;
+	dropdown.style.display='select';
+	op=document.createElement("option");
+	op.style.color = "black";
+	dropdown.appendChild(op);	
+    completeTable1.style.display = 'none';
+    row = document.createElement("tr");
+    cell = document.createElement("td");
+    row.appendChild(cell);
+    completeTable1.appendChild(row);
+    cell.className = "popupCell";
+	linkElement = document.createElement("a");
+    linkElement.className = "popupItem";
+    linkElement.appendChild(document.createTextNode(dayName));
+    cell.appendChild(linkElement);
+	op.appendChild(linkElement);
+	linkElement.style='color:black;font-size:15px;font-family:Century Schoolbook;';
+}
+</script>
+
+<script>
+function showPrivacyNoticeFunction() {
+  alert('KNN HealthCare, Inc. and its affiliates (collectively “KNN HealthCare”, “we” and “us”) respect your privacy. We offer services that enable platforms and merchants to run businesses, and to safely conduct online payment transactions. This Global Privacy Policy describes the types of Personal Data we collect through our payments products and services and via our online presence, which include our main website as well as services and websites that we enable Internet users to access, such as KNN HealthCare Checkout . This policy also describes how we use Personal Data, with whom we share it, your rights and choices, and how you can contact us about our privacy practices. This policy does not apply to third-party websites, products, or services, even if they link to our Services or Sites, and you should consider the privacy practices of those third-parties carefully.');
+}
+
+function showConditionNoticeFunction() {
+  alert('Transactions begin processing five (5) Business Days prior to your Scheduled Payment Date. You can cancel order  five (5) business days before the order delivery date, but after that system will not allow you to cancel an order.');
+}
+</script>
+<script type="text/javascript" src="javascript.js"></script>
+
+<style>
+.col-md-6{
+		width : 164% ! important;
+	}
+</style>
+</head>
+<body onload="start()" style='margin: 0px !important; padding: 0 !important;'>
+	<div id="quickInfo">
+		<table class="quickInfoGrid">
+			<tr>
+				<td><img src="images/site/ambulance.jpg" alt="" style="height: 40px"/><a href="#" style="font-size:17px;margin-left: 5px;padding-top:10px;text-decoration:none;font-family:Arial, Helvetica, sans-serif;color:black">+1 0123456789</a></td>
+				<td style="background-color:white"></td>
+				<td class="dropdown"><button class="dropbtn" style="font-size:17px;color:black">Quick Connect</button>
+					<div class="dropdown-content">
+						<a href="#">Emergency Number: +1 234567890</a>
+						<a href="#">Blood Bank (24x7): +1 234567890/+1 7894561230</a>
+						<a href="#">Ambulance Number: +1 234567890</a>
+						<a href="#">Email ID: KNN@knnhospital.net</a>
+					</div>
+				</td>
+				<td style="background-color:white"></td>
+				<td>
+					<input type="text" name="searchId" value="" class="input"
+					id="searchId" onkeyup="doCompletionDoctor()" autocomplete="off" 
+					placeholder="search here for a doctor.." style="background-color: #fff2f4;margin:9px 10px 5px 0px; font-size:16px; width:200px"/>
+					<div id="autoRowDoctor">
+						<table id="completeTableDoctor" class="gridtable" style="position: absolute;width: 269px;margin-left:-4px;">
+						</table>
+				</div>
+				</td>
+				<td style="background-color:white"></td>
+				<td>
+					<input type="text" name="searchMedicineId" value="" class="input"
+					id="searchMedicineId" onkeyup="doCompletionMedicine()" autocomplete="off" 
+					placeholder="search here for a medicine.." style="background-color: #fff2f4;margin:9px 10px 5px 0px; font-size:16px; width:200px"/>
+					<div id="autoRowMedicine">
+						<table id="completeTableMedicine" class="gridtable" style="position: absolute;width: 269px;margin-left:-4px;">
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--header logo-->
+	<div id="logo">
+		<table class="logoTable">
+			<tr>
+				<td>
+					<img src="images/site/flower.png" alt="" style="height: 80px" />
+						<a href="Home" style="font-size:45px;font-family:Algerian;margin-top:5px;text-decoration=none">KNN HealthCare</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!--header menu options-->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="Home"><span class="glyphicon glyphicon-home">Home</span></a></li>
+				<li><a href="DoctorSpecialityList" style='margin-left:10px;'><span class="glyphicon">Specialties</span></a></li>
+				<li><a href="MedicineList" style='margin-left:10px;'><span class="glyphicon">Medicine Store</span></a></li>
+				<li><a href="Trending" style='margin-left:10px;'><span class="glyphicon">Trending</span></a></li>
+				<li><a href="AboutUs" style='margin-left:10px;'><span class="glyphicon">About Us</span></a></li>
+				<!--<li><a href="#"><span class="glyphicon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login</span></a></li>
+				<li><a href="#"><span class="glyphicon">View Order</span></a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart">Cart</span></a></li>
+			</ul>
+		</div>
+	</div>-->
