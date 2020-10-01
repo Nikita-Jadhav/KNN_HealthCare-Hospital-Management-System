@@ -71,7 +71,7 @@ function appendProduct1(productName,productId)
     }
 	else
 	{
-        completeTableDoctor.style.display = 'table';
+        completeTableDoctor.style.display ='table';
         row = document.createElement("tr");
         cell = document.createElement("td");
         row.appendChild(cell);
@@ -152,7 +152,7 @@ function initRequestMedicine()
 	else if (window.ActiveXObject)
 	{
         isIE = true;
-        return new ActiveXObject("Microsoft.XMLHTTP");
+        return new ActiveXObject(" Microsoft.XMLHTTP ");
     }
 }
 

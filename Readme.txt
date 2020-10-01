@@ -17,7 +17,7 @@ Assignment Features implemented in our project:
 5. Expected delivery date for placed order is 15 days ahead of the current date and can cancel an order at a later timer, though
 it must be 3 business days before the delivery date: Implemented
 6. Having good amount of data in terms of products and doctors: Done
-7. All accounts login information is stored in MYSQL database and All patient transactions/orders/appointments stored in SQL
+7. All accounts login information is stored in MYSQL database and All patient transactions/orders/appointments regarding information stored in SQL
 database (MySQL): Implemented
 8. Patient is able to submit product reviews: Implemented
 9. Patient/Doctor/Medicine Manager is able to view submitted product reviews: Implemented
@@ -61,7 +61,7 @@ set CLASSPATH=.;C:\apache-tomcat-7.0.34\lib\servlet-api.jar;C:\apache-tomcat-7.0
 
 set ANT_HOME=c:\apache-tomcat-7.0.34
 
-set TOMCAT_HOME=C:\apache-tomcat-7.0.34
+set TOMCAT_HOME=C:\apache-tomcat-7.0.34(tom cat server)
 
 set CATALINA_HOME=C:\apache-tomcat-7.0.34
 
